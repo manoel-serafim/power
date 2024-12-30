@@ -1,0 +1,10 @@
+---
+# Enable all checks for the strictest analysis
+Checks: '*, -bugprone-easily-swappable-parameters'
+
+# Treat all warnings as errors to enforce strict compliance
+WarningsAsErrors: '*'
+
+# Analyze all files, including headers (modify regex if needed to exclude certain paths)
+HeaderFilterRegex: '.*'
+
